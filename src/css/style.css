@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  padding: 1.7rem 3rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  background-image: url(../public/img/main-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.nav-box {
+  padding-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 84%;
+  margin: auto;
+}
+
+.humburger {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  cursor: pointer;
+}
+
+.humburger-line {
+  width: 4.4rem;
+  height: .3rem;
+  background: #fff;
+  display: block;
+}
+
+.logo {
+  font-size: 3.7rem;
+  color: #fff;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.numbers {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.nav-btn {
+  color: #111;
+  display: flex;
+  gap: 20px;
+}
